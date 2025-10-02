@@ -1411,7 +1411,7 @@ submitCharNameBtn.addEventListener('click', () => {
     
     const addToRecentMessages = (text) => {
         recentMessages.push(text);
-        if (recentMessages.length > 10) {
+        if (recentMessages.length > 15) {
             recentMessages.shift();
         }
     };
@@ -1748,3 +1748,4 @@ if (isIOS()) {
 </script>
 </body>
 </html>
+
